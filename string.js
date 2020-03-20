@@ -20,7 +20,13 @@ function isPalindrome(s){
 }
 
 function swapCase(s){
+    let a = "";
     for (let i = 0; i < (s.length);i++){
-        if ()
+        if (s[i] == s[i].toUpperCase()){
+            a+=s[i].toLowerCase();
+        }else{
+            a+=s[i].toUpperCase();
+        }
     }
+    return a;
 }
