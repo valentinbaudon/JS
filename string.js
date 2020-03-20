@@ -3,11 +3,11 @@ function repeat(s,n){
 }
 
 function truncate(s,n){
-    let a = s.substring(0,n);
-    if (a.length < n-3){
-        return a + "...";
+    if (s.length > n){
+        return s.substring(0,n-2) + "...";
     }else{
         return s;
     }
+    
 
 }
