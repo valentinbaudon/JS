@@ -1,6 +1,8 @@
 function main(){
     repeatTest();
-    trunctest();
+    truncateTest();
+    isPalindromeTest();
+    swapCaseTest();
 }
 
 main();
