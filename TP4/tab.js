@@ -35,8 +35,8 @@ function range(min, max, step){
 function nbOccurences(wordList, word){
     let newocc = wordList.split(" ");
     let occ = 0;
-    for(occs of word){
-        if (occs == newocc){
+    for(occs of newocc){
+        if (occs == word){
             occ+=1;
         }
     }
