@@ -1,4 +1,4 @@
-function main{
+function main(){
     sumTest();
     sumTest2();
     lWTest();
