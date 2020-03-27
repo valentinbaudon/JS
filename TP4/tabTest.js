@@ -16,3 +16,10 @@ function rangeTest(min,max,step){
     console.log( range(3, 8, 1) );
     console.log( range(40, 90, 20) );
 }
+
+function occTest(wordlist,word){
+    let text = "bar qux baz foo bar foo qux foo";
+    console.log(nbOccurences(text, "foo"));
+    console.log(nbOccurences(text, "quux"));
+    console.log(nbOccurences(text, "baz"));
+}

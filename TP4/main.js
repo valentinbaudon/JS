@@ -3,6 +3,7 @@ function main(){
     sumTest2();
     lWTest();
     rangeTest();
+    occTest();
 }
 
 main();

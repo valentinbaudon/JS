@@ -32,4 +32,13 @@ function range(min, max, step){
     return chaine;
 }
 
-function 
+function nbOccurences(wordList, word){
+    let newocc = wordList.split(" ");
+    let occ = 0;
+    for(occs of word){
+        if (occs == newocc){
+            occ+=1;
+        }
+    }
+    return occ;
+}
