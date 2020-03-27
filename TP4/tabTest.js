@@ -11,3 +11,8 @@ function sumTest2(numbers){
 function lWTest(words){
     console.log( longestWord(["lot", "of", "words", "of", "different", "sizes"]) );
 }
+
+function rangeTest(min,max,step){
+    console.log( range(3, 8, 1) );
+    console.log( range(40, 90, 20) );
+}

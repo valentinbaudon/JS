@@ -23,3 +23,13 @@ function longestWord(words){
     }
     return res;
 }
+
+function range(min, max, step){
+    let chaine =[];
+    for(let a = min; a <= max; a+=step ){
+        chaine.push(a);
+    }
+    return chaine;
+}
+
+function 
