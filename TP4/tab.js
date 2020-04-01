@@ -96,3 +96,35 @@ function decryptage (array){
     }
     console.log(newArray);
 }
+
+function cryptage2 (array){
+    let décalage = [3,1,4];
+    let nbArray = [];
+    for(let a = 0; a < array.length; a++){
+        nbArray.push(array.charCodeAt(a));
+    }
+    for (let b = 0; b < nbArray.length; b++){
+        for (let d = 0; d < décalage.length; d++){
+            nbArray[b]+=d;
+    }
+    let newArray = [];
+    for(let c = 0; c < nbArray.length; c++){
+        newArray.push(String.fromCharCode(nbArray[c]));
+    }
+    console.log(newArray);
+}
+
+function decryptage2 (array){
+    let nbArray = [];
+    for(let a = 0; a < array.length; a++){
+        nbArray.push(array.charCodeAt(a));
+    }
+    for (let b = 0; b < nbArray.length; b++){
+        nbArray[b]-=3;
+    }
+    let newArray = [];
+    for(let c = 0; c < nbArray.length; c++){
+        newArray.push(String.fromCharCode(nbArray[c]));
+    }
+    console.log(newArray);
+}
