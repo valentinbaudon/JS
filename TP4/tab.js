@@ -51,5 +51,8 @@ function flatten2D(array){
         }
     }
     return tab;
+}
 
+function mult9(){
+    
 }

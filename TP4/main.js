@@ -6,7 +6,7 @@ function main(){
     occTest();
     flattenTest();
     let tableau = ["Bob", "Julien", "Roger" ];
-    console.log(tableau);
+    console.log( tableau.join(", "));
     tableau.pop();
     tableau.push("coco");
 }
