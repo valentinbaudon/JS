@@ -98,14 +98,18 @@ function decryptage (array){
 }
 
 function cryptage2 (array){
-    let décalage = [3,1,4];
+    let decalage = [3,1,4];
     let nbArray = [];
+    let posCle = 0;
     for(let a = 0; a < array.length; a++){
         nbArray.push(array.charCodeAt(a));
     }
     for (let b = 0; b < nbArray.length; b++){
-        for (let d = 0; d < décalage.length; d++){
-            nbArray[b]+=d;
+        nbArray[b]+=decalage[posCle];
+        posCle++;
+        if(posCle >= decalage.length){
+            posCle = 0;
+        }
     }
     let newArray = [];
     for(let c = 0; c < nbArray.length; c++){
@@ -114,13 +118,20 @@ function cryptage2 (array){
     console.log(newArray);
 }
 
-function decryptage2 (array){
+
+function cryptage2 (array){
+    let decalage = [3,1,4];
     let nbArray = [];
+    let posCle = 0;
     for(let a = 0; a < array.length; a++){
         nbArray.push(array.charCodeAt(a));
     }
     for (let b = 0; b < nbArray.length; b++){
-        nbArray[b]-=3;
+        nbArray[b]-=decalage[posCle];
+        posCle++;
+        if(posCle >= decalage.length){
+            posCle = 0;
+        }
     }
     let newArray = [];
     for(let c = 0; c < nbArray.length; c++){
