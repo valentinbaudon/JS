@@ -54,5 +54,15 @@ function flatten2D(array){
 }
 
 function mult9(){
-    
+    let tab = [];
+    tab.push([0,1,2,3,4,5,6,7,8,9]);
+    for (let i = 0; i < 10; i++){
+        let ligne = [];
+        ligne.push(i);
+        for(let j = 1; j < 10; j++){
+            ligne.push(i*j);
+        }
+        tab.push(ligne);
+    }
+    console.log(tab.join("\n"));
 }
