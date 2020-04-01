@@ -68,7 +68,6 @@ function mult9(){
 }
 
 function cryptage(array){
-    let letter = array.split(" ");
     let nbArray = [];
     for(let a = 0; a < array.length; a++){
         nbArray.push(array.charCodeAt(a));
@@ -78,13 +77,12 @@ function cryptage(array){
     }
     let newArray = [];
     for(let c = 0; c < nbArray.length; c++){
-        newArray.push(array.charAt(c));
+        newArray.push(String.fromCharCode(nbArray[c]));
     }
     console.log(newArray);
 }
 
 function decryptage (array){
-    let letter = array.split(" ");
     let nbArray = [];
     for(let a = 0; a < array.length; a++){
         nbArray.push(array.charCodeAt(a));
@@ -94,8 +92,7 @@ function decryptage (array){
     }
     let newArray = [];
     for(let c = 0; c < nbArray.length; c++){
-        newArray.push(array.charAt(c));
+        newArray.push(String.fromCharCode(nbArray[c]));
     }
     console.log(newArray);
-
 }
