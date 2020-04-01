@@ -119,7 +119,7 @@ function cryptage2 (array){
 }
 
 
-function cryptage2 (array){
+function decryptage2 (array){
     let decalage = [3,1,4];
     let nbArray = [];
     let posCle = 0;
