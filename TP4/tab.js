@@ -38,7 +38,7 @@ function nbOccurences(wordList, word){
     for(occs of newocc){
         if (occs == word){
             occ+=1;
-        }
+        }//test
     }
     return occ;
 }
