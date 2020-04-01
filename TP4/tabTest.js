@@ -23,3 +23,8 @@ function occTest(wordlist,word){
     console.log(nbOccurences(text, "quux"));
     console.log(nbOccurences(text, "baz"));
 }
+
+function flattenTest(array){
+    console.log( flatten2D([[1,2], [3,4], [5,6]]));
+console.log( flatten2D([[1,2], [3,4,5], [6]]));
+}

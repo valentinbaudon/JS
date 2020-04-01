@@ -38,7 +38,18 @@ function nbOccurences(wordList, word){
     for(occs of newocc){
         if (occs == word){
             occ+=1;
-        }//test
+        }
     }
     return occ;
+}
+
+function flatten2D(array){
+    let tab = [];
+    for(let nb of array){
+        for(let n of nb){
+            tab.push(n);
+        }
+    }
+    return tab;
+
 }

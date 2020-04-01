@@ -4,6 +4,7 @@ function main(){
     lWTest();
     rangeTest();
     occTest();
+    flattenTest();
 }
 
 main();
