@@ -66,3 +66,36 @@ function mult9(){
     }
     console.log(tab.join("\n"));
 }
+
+function cryptage(array){
+    let letter = array.split(" ");
+    let nbArray = [];
+    for(let a = 0; a < array.length; a++){
+        nbArray.push(array.charCodeAt(a));
+    }
+    for (let b = 0; b < nbArray.length; b++){
+        nbArray[b]+=3;
+    }
+    let newArray = [];
+    for(let c = 0; c < nbArray.length; c++){
+        newArray.push(array.charAt(c));
+    }
+    console.log(newArray);
+}
+
+function decryptage (array){
+    let letter = array.split(" ");
+    let nbArray = [];
+    for(let a = 0; a < array.length; a++){
+        nbArray.push(array.charCodeAt(a));
+    }
+    for (let b = 0; b < nbArray.length; b++){
+        nbArray[b]-=3;
+    }
+    let newArray = [];
+    for(let c = 0; c < nbArray.length; c++){
+        newArray.push(array.charAt(c));
+    }
+    console.log(newArray);
+
+}
