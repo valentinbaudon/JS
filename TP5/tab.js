@@ -11,5 +11,10 @@ function evenOnly(numbers){
 
 function sum(numbers){
     let nb = 0;
-    return numbers.forEach( (numbers) => nb += numbers);
+    numbers.forEach( (number) => nb += number);
+    return nb;
+}
+
+function flatten2D (array){
+    
 }
