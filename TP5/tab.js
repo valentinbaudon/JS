@@ -17,6 +17,6 @@ function sum(numbers){
 
 function flatten2D (array){
     let tab = [];
-    array.forEach(nb.forEach( (n) => tab.push(n)));
+    array.forEach((nb) => nb.forEach( (n) => tab.push(n)));
     return tab;
 }
