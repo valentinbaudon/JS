@@ -137,5 +137,5 @@ function decryptage2 (array){
     for(let c = 0; c < nbArray.length; c++){
         newArray.push(String.fromCharCode(nbArray[c]));
     }
-    console.log(newArray);//
+    console.log(newArray);
 }
