@@ -131,7 +131,7 @@ function decryptage2 (array){
         posCle++;
         if(posCle >= decalage.length){
             posCle = 0;
-        }
+        }//
     }
     let newArray = [];
     for(let c = 0; c < nbArray.length; c++){
