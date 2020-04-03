@@ -1,5 +1,5 @@
 function main(){
-    
+    absTest();
 }
 
 main();
