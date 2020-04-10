@@ -9,8 +9,6 @@ function access{
     console.log(document.querySelector("h1"));
     console.log(document.getElementById("2016").querySelectorAll(".film").length);
     console.log(document.querySelectorAll("film > .synopsis > div > p")[1]);
-
-
 }
 
 access();
