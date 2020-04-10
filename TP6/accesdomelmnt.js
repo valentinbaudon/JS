@@ -1,4 +1,4 @@
-function access{
+function access(){
     console.log(document.title);
     console.log(document.body);
     console.log(document.getElementsByTagName("a")[2].href);
