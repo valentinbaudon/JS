@@ -20,3 +20,4 @@ function flatten2D (array){
     array.forEach((nb) => nb.forEach( (n) => tab.push(n)));
     return tab;
 }
+

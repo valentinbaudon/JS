@@ -1,8 +1,6 @@
 function main(){
-    absTest();
-    evenOnlyTest();
-    sumTest();
-    flattenTest();
+    
+    f();
 }
 
 main();
