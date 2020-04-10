@@ -21,3 +21,6 @@ function flatten2D (array){
     return tab;
 }
 
+function removeDuplicates2(values){
+    return values.filter(function(n, i, array){return !array.includes(n);});
+}
