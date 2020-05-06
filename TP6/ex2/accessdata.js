@@ -8,7 +8,7 @@ function access(){
 
     console.log(document.querySelectorAll(".c1").length);
 
-    let note1 = document.querySelectorAll("tr")[9].getElementsByTagName("td")[2].innerText
+    let note1 = document.querySelectorAll("tr")[9].getElementsByTagName("td")[2].innerText;
     console.log(note1);
 
     console.log(document.querySelectorAll("tr")[10].getElementsByTagName("td")[2].innerText);

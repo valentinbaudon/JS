@@ -1,6 +1,10 @@
 ﻿function addSegments(digitId){
 
-    // TODO : compléter
+    for(let i = 0; i < 6; i++){
+        let segment = document.createElement("div");
+        segment.className = "segment off segment"+i;
+    }
+    segment.appendChild(segment);
 
 }
 
@@ -27,7 +31,10 @@ function updateDigit(digitId, value){
 
 function init(){
 
-    // TODO : compléter
+    addSegments("hours-tens");
+    addSegments("hours-units");
+    addSegments("minutes-tens");
+    addSegments("minutes-units");
 }
 
 
