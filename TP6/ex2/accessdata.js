@@ -18,6 +18,9 @@ function access(){
     document.querySelectorAll("tr")[9].getElementsByTagName("td")[2].style.fontSize = "25px";
 
     document.querySelectorAll("tr")[9].getElementsByTagName("td")[2].style.color = "red";
+
+    let zoneTxt = document.createElement("textarea");
+    document.body.appendChild(zoneTxt);
 }
 
 access();
