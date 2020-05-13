@@ -35,6 +35,8 @@ function init(){
     addSegments("hours-units");
     addSegments("minutes-tens");
     addSegments("minutes-units");
+    addSegments("secondes-tens");
+    addSegments("secondes-units");
 }
 
 
@@ -46,6 +48,8 @@ function main(){
         updateDigit("hours-units", d.getHours()%10);
         updateDigit("minutes-tens", Math.trunc(d.getMinutes()/10));
         updateDigit("minutes-units", d.getMinutes()%10);
+        updateDigit("secondes-tens", Math.trunc(d.getSeconds()/10));
+        updateDigit("secondes-units", d.getSeconds()%10);
     }, 1000);
 }
 
