@@ -54,8 +54,7 @@ function displayDateTime(){
 
 function displayDecrementSeconds(sec){
     if(sec > 0){
-        
-
+    
         let d = document.querySelector("#timer");
         d.innerText ="Le dessin va s'afficher après "+sec+"\n";
 
