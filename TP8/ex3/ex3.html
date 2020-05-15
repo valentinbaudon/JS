@@ -10,22 +10,22 @@
         <table>
             <th>
                 <td>
-                    <img src="image1.png">
+                    <div id="img"></div>
                     <br>
                     <button id="id1" onclick="popup()">ouvrir un nouveau popup</button>
                     <button id="id2" onclick="popupclose()">refermer le popup</button>
                 </td>
             </th>
-            <th>
-                <td><h3>Tableau de bord</h3></td>
-                <td><br></td>
-            </th>
-            <th><td><button id="ad1" onclick="haut()">haut</button></td></th>
-            <td><th><button id="ad2" onclick="gauche()">gauche</button></th>
-                <th><button id="ad3" onclick="droite()">droite</button></th></td>
-                
-                
-                <th><button id="ad4" onclick="bas()">bas</button></td></th><td>
+            <td>
+                Tableau de bord<br><br>
+                        <button id="haut" onclick="moveTop()">haut</button>
+                        <br>
+                        <button id="gauche" onclick="moveLeft()">gauche</button>
+                        <button id="droite" onclick="moveRight()">droite</button>
+                        <br>
+                        <button id="bas" onclick="moveBottom()">bas</button>
+            </td>
+               
             
         </table>
        

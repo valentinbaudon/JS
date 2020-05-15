@@ -2,3 +2,10 @@ body{
     background-color: bisque;
 }
 
+#img{
+    background-image: url(image1.png);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: 25%;
+}
