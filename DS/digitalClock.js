@@ -148,7 +148,7 @@ function uptateTime(){
     if(seconds== 31){
         badSmiley();
     }
-    if(seconds ==1){
+    if(seconds ==30){
         goodSmiley();
     }
 
