@@ -114,6 +114,7 @@ function init(){
     addSegments("minutes-units");
     addSegments("seconds-tens");
     addSegments("seconds-units");
+    badSmiley();
 }
 
 function buttons(){
