@@ -187,10 +187,10 @@
                 <div class="cool"><p>la fonction conversion : cette fonction permet de retranscrire une phrase en son code binaire.</p></div><br><br>
 
                 <img src="images/" alt="fonction 3"><br><br>
-                <div class="cool"><p>sentence display</p></div><br><br>
+                <div class="cool"><p>Récupère en entrée la phrase voulue et fait appel à la fonction display_7seg pour afficher chaque lettre à la fois dans le seven segment et dans l'UART</p></div><br><br>
 
                 <img src="images/" alt="fonction 5"><br><br>
-                <div class="cool"><p>physical display</p></div><br><br>
+                <div class="cool"><p>Reçoit en entrée une valeur, selon cette valeur et l'encadrement dans lequel elle rentre, affiche soit un chiffre soit une lettre ou autre</p></div><br><br>
 
                 <img src="images/" alt="fonction 7"><br><br>
                 <div class="cool"><p>LED</p></div><br><br>
@@ -198,16 +198,16 @@
             <div class="col-md-6">
                 <br><br>
 
-                <div class="cool"><p>Main</p></div><br><br>
+                <div class="cool"><p>C'est en fait le menu, elle permet à la fois d'intéragir avec le bouton pour lancer la phrase pas défaut et est aussi l'interface qui permet à l'utilisateur de rentrer des commandes</p></div><br><br>
                 <img src="images/" alt="fonction 2"><br><br>
 
-                <div class="cool"><p>La fonction stockage : ce code permet de stocker une phrase, à la site des précédentes si elles existent, dans l'EPPROM.</p></div><br><br>
+                <div class="cool"><p>La fonction stockage : ce code permet de stocker une phrase, à la site des précédentes si elles existent, dans l'EPPROM. Cela se fait en 2 parties : une pour incrémenter l'indexe et l'autre pour incrémenter la phrase en elle-même.</p></div><br><br>
                 <img src="images/" alt="fonction 4"><br><br>
 
-                <div class="cool"><p>7SEG</p></div><br><br>
+                <div class="cool"><p>Selon ce qui est demandé en entrée : affiche dans l'UART la lettre en question ou fait appel à la fonction physical_display pour afficher la lettre dans le seven segment</p></div><br><br>
                 <img src="images/" alt="fonction 6"><br><br>
 
-                <div class="cool"><p>play</p></div><br><br>
+                <div class="cool"><p>Prend en entrée l'index de la phrase voulue, elle est stockée dans l'EEPROM (phrase par défaut ou non) et fait appel aux fonctions qui jouent la LED et le seven segment</p></div><br><br>
                 <img src="images/" alt="fonction 8"><br><br>
             </div>
         </div>
@@ -237,6 +237,25 @@
               </div>
           </div>
       </div>
+
+      <div class="titre">
+        <h4>fonctions auxiliaires</h4></div><br>
+    
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-5">
+                    <br><br>
+                    <div class="cool"><p>La commande a : Elle permet, avec une phrase d'entrée, d'enregistrer celle-ci à la suite dans l'EPPROM.</p></div><br><br>
+                    
+                </div>
+                <div class="col-md-6">
+                    <br><br>
+                    
+                    <img src="images/" alt="fonction 10"><br><br>
+                    
+                </div>
+            </div>
+        </div>
 
 
 
