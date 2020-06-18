@@ -23,3 +23,11 @@
     height: 50px;
 
 }
+
+#cool2{
+    background: lightgrey;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
