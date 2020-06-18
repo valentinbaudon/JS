@@ -1,0 +1,25 @@
+.titre{
+    text-align: center;
+    background: grey;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px;
+}
+
+.cool{
+    background: lightgrey;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.classe{
+    background: darkgray;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px;
+    width: 100px;
+    height: 50px;
+
+}

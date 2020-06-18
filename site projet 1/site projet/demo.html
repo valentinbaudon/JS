@@ -23,6 +23,7 @@
 <body>
     <!--déclaration du body-->
 
+    <!-- barre de navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -167,97 +168,26 @@
           </ul>
         </div>
       </nav>
-
-  
+      <br>
 
 
     <!-- corps de la page -->
 
     <!-- sous-titre de la page -->
-      <div class="titre">
-    <h2 id="stitle">Fonctionnement global de notre code</h2></div><br>
+    <div class="titre"><h2 id="stitle">Démonstration</h2></div><br><br><br>
 
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-5">
-                <br><br>
-
-                <img src="images/" alt="fonction 1"><br><br>
-                <div class="cool"><p>La fonction conversion : cette fonction permet de retranscrire une phrase en son code binaire.</p></div><br><br>
-
-                <img src="images/" alt="fonction 3"><br><br>
-                <div class="cool"><p>Récupère en entrée la phrase voulue et fait appel à la fonction display_7seg pour afficher chaque lettre à la fois dans l'afficheur 7 segments et dans l'UART.</p></div><br><br>
-
-                <img src="images/" alt="fonction 5"><br><br>
-                <div class="cool"><p>Reçoit en entrée une valeur, selon cette valeur et l'encadrement dans lequel elle rentre, elle affiche soit un chiffre soit une lettre ou autre.</p></div><br><br>
-
-                <img src="images/" alt="fonction 7"><br><br>
-                <div class="cool"><p>La fonction sentenceDisplay permet de faire clignoter la LED en fonction du chiffre que l’on a en morse, si c’est un 0 ou un 1. Le 0 et le 1 sont différencier par des clignotements de longueur différentes. Cette fonction gère également l'affichage 7 segments.</p></div><br><br>
-            </div>
-            <div class="col-md-6">
-                <br><br>
-
-                <div class="cool"><p>C'est en fait le menu, elle permet à la fois d'intéragir avec le bouton pour lancer la phrase par défaut et est aussi l'interface qui permet à l'utilisateur de rentrer des commandes.</p></div><br><br>
-                <img src="images/" alt="fonction 2"><br><br>
-
-                <div class="cool"><p>La fonction stockage : ce code permet de stocker une phrase, à la suite des précédentes si elles existent, dans l'EEPROM. Cela se fait en 2 parties : une pour incrémenter l'indexe et l'autre pour incrémenter la phrase en elle-même.</p></div><br><br>
-                <img src="images/" alt="fonction 4"><br><br>
-
-                <div class="cool"><p>Selon ce qui est demandé en entrée : affiche dans l'UART la lettre en question ou fait appel à la fonction physical_display pour afficher la lettre dans l'afficheur 7 segments.</p></div><br><br>
-                <img src="images/" alt="fonction 6"><br><br>
-
-                <div class="cool"><p>Prend en entrée l'index de la phrase voulue, elle est stockée dans l'EEPROM (phrase par défaut ou non) et fait appel aux fonctions qui jouent la LED et l'afficheur 7 segments.</p></div><br><br>
-                <img src="images/" alt="fonction 8"><br><br>
-            </div>
+            <div class="offset-md-2"></div>
+            <center><div class="col-md-5">
+                <video width="640" height="480" controls>
+                    <source src="movie.mp4" type="video/mp4">
+                </video>
+            </div></center>
         </div>
     </div>
-    <div class="titre">
-      <h4>Commandes d'interactions avec l'utilisateur</h4></div><br>
-  
-      <div class="container-fluid">
-          <div class="row">
-              <div class="col-md-5">
-                  <br><br>
-                  <img src="images/" alt="fonction 9"><br><br>
-                  <div class="cool"><p>La commande a : Elle permet, avec une phrase d'entrée, d'enregistrer celle-ci à la suite dans l'EEPROM.</p></div><br><br>
-                  <img src="images/" alt="fonction 11"><br><br>
-                  <div class="cool"><p>La commande d : Cette fonction permet de donner une phrase particulière à supprimer dans l'EEPORM.</p></div><br><br>
-                  <img src="images/" alt="fonction 13"><br><br>
-                  <div class="cool"><p>La commande f : Cette commande permet de connaître la quantité d'espace libre sur l'EEPROM.</p></div><br><br>
-              </div>
-              <div class="col-md-6">
-                  <br><br>
-                  <div class="cool"><p>La commande h : Ici, la commande permet d'afficher toutes les commandes disponibles.</p></div><br><br>
-                  <img src="images/" alt="fonction 10"><br><br>
-                  <div class="cool"><p>la commande l : A l'aide de cette commande, il est possible d'afficher toutes les phrases enregistrées sur l'EEPROM.</p></div><br><br>
-                  <img src="images/" alt="fonction 12"><br><br>
-                  <div class="cool"><p>la commande r : Cela permet de selectionner puis jouer la phrase par défaut.</p></div><br><br>
-                  <img src="images/" alt="fonction 14"><br><br>
-              </div>
-          </div>
-      </div>
-
-      <div class="titre">
-        <h4>Fonctions auxiliaires</h4></div><br>
-    
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-5">
-                    <br><br>
-                    <div class="cool"><p>La commande a : Elle permet, avec une phrase d'entrée, d'enregistrer celle-ci à la suite dans l'EPPROM.</p></div><br><br>
-                    
-                </div>
-                <div class="col-md-6">
-                    <br><br>
-                    
-                    <img src="images/" alt="fonction 10"><br><br>
-                    
-                </div>
-            </div>
-        </div>
-
-
+    <br><br>
 
 
 
